@@ -1,3 +1,5 @@
+import { defineConfig } from 'vite';
+
 export default defineConfig({
   base: './', // Ensures relative paths in production
   build: {
@@ -5,7 +7,7 @@ export default defineConfig({
   },
   server: {
     mimeTypes: {
-      '.js': 'application/javascript', // Make sure JS files are served with the correct MIME type
+      '.js': 'application/javascript', // Ensures JS files are served with correct MIME type
     },
   },
 });
