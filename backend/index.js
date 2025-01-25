@@ -7,12 +7,7 @@ dotenv.config();
 
 const typeDefs = require('./graphql/typeDefs');
 const resolvers = require('./graphql/resolvers');
-app.use(express.static(path.join(__dirname, 'dist')));
 
-// Fallback for single-page apps
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
-});
 
 // Apollo Server setup
 const server = new ApolloServer({
