@@ -7,7 +7,8 @@ export default defineConfig({
   },
   server: {
     mimeTypes: {
-      '.js': 'application/javascript', // Ensures JS files are served with correct MIME type
+      '.js': 'application/javascript', // Ensure JS files are served with the correct MIME type
+      '.jsx': 'application/javascript', // Add support for .jsx files if using React
     },
   },
 });
