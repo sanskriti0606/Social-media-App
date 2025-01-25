@@ -12,7 +12,7 @@ import App from './App';
 import ThemeProvider from './context/theme';
 
 const httpLink = createHttpLink({
-  uri: 'https://social-media-app-5c0s.onrender.com/',
+  uri: 'https://social-media-app-5c0s.onrender.com/graphql',
   //uri: 'http://localhost:8080/'
 });
 
