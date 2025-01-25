@@ -8,19 +8,19 @@ const postSchema = new Schema({
     {
       body: String,
       username: String,
-      createdAt: String
-    }
+      createdAt: String,
+    },
   ],
   likes: [
     {
       username: String,
-      createdAt: String
-    }
+      createdAt: String,
+    },
   ],
   user: {
     type: Schema.Types.ObjectId,
-    ref: 'User'
-  }
-})
+    ref: 'users',
+  },
+});
 
 module.exports = model('Post', postSchema);

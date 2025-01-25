@@ -6,7 +6,19 @@ const userSchema = new Schema({
   email: String,
   createdAt: String,
   photoURL: { type: String, default: '' },
-  isAdmin: Boolean
+  isAdmin: { type: Boolean, default: false },
+  followers: [
+    {
+      username: String,
+      createdAt: String,
+    },
+  ],
+  following: [
+    {
+      username: String,
+      createdAt: String,
+    },
+  ],
 });
 
 module.exports = model('User', userSchema);
