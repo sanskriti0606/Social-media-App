@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "client/package.json",
+        "use": "@vercel/node",
+        "config": {
+          "buildCommand": "chmod +x node_modules/.bin/vite && npx vite build"
+        }
+      }
+    ]
+  }
+  
