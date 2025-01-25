@@ -1,25 +1,12 @@
-# React GraphQL - Social Media App
-
-Build a Social Media App to learn **GraphQL** following the classes of [Ahmed Hadjou](https://github.com/hidjou)'s Youtube channel [Classed](https://www.youtube.com/playlist?list=PLMhAeHCz8S3_pgb-j51QnCEhXNj5oyl8n)
+# GraphQL - Social Media App
 
 ## Description
 
 Basically a social media app clone where users can register, login, create posts, like posts, and comment on them.
 
-## Features
-
-I'm going to add the following features to improve on the base project:
-- [X] Allow user to edit their post
-- [X] Responsive layout for Mobile and Tablet
-- [X] Light/Dark Theme Selector
-- [X] User Profile
-- [X] Admin privileges, delete posts and comments
-
-
-
 ### Deployed to Netlify
 
-[Visit the app](https://ezecaste-social-app.netlify.app/)
+https://startling-pegasus-23a875.netlify.app/
 
 ### Installing
 
@@ -60,5 +47,13 @@ npm run dev
   - [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
   
 ### Deployment
-- Client deployed to [Netlify](https://ezecaste-social-app.netlify.app/)
-- Server deployed to Fly.io
+- Client deployed to https://startling-pegasus-23a875.netlify.app/
+  
+
+![image](https://github.com/user-attachments/assets/7dc20294-69f4-4412-aaa7-620d53140591)
+
+![image](https://github.com/user-attachments/assets/7d8032be-2216-424b-a4ef-172b57ebb976)
+
+
+  ![image](https://github.com/user-attachments/assets/d23296bd-592f-4448-9e1a-28b4062df1cd)
+
